@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  appgo:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    image: allysonreeis/codeeducation
+    container_name: desafio1
